@@ -1,0 +1,8 @@
+body{
+    background-color: teal;
+    display: flex;
+}
+img{
+    width:30%;
+    Height: 30%;
+}
