@@ -95,15 +95,15 @@ const database = {
             advice: "Overfeeding is a common mistake in fish keeping that can lead to water quality issues. Feed your fish a balanced diet suitable for their species, and avoid giving them more food than they can consume in a few minutes.",
           },
         ],   
-    quotes: [
+    quote: [
           {
-            quote: "Fishing is not an escape from life, but often a deeper immersion into it.",
+            inspo: "Fishing is not an escape from life, but often a deeper immersion into it.",
           },
           {
-            quote: "Fishermen are the people who harvest the bounty of the sea.",
+            inspo: "Fishermen are the people who harvest the bounty of the sea.",
           },
           {
-            quote: "The charm of fishing is that it is the pursuit of what is elusive but attainable.",
+            inspo: "The charm of fishing is that it is the pursuit of what is elusive but attainable.",
           },
         ],   
     } 
@@ -119,5 +119,5 @@ const database = {
   
     }
     export const getQuotes = () => {
-      return database.quotes.map(quotes => ({...quotes}))
+      return database.quote.map(quote => ({...quote}))
     }

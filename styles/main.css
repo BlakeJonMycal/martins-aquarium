@@ -1,8 +1,96 @@
 body{
     background-color: teal;
-    display: flex;
 }
 img{
     width:30%;
     Height: 30%;
+    
 }
+.Martins_title{
+    background-color: antiquewhite;
+    width: 90%;
+    margin: 5%;
+    padding: 10px;
+    text-align: center;
+}
+.Martins_tank{
+    background-color:antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+.fish__card{
+    background-color: lightcoral;
+    margin: 20px;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.Martins_advice{
+    background-color: antiquewhite;
+    width: 40%;
+    margin: 10px;
+}
+.Martins_locations{
+    background-color: lightcoral;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+   
+}
+.Martins_tips{
+    background-color: lightcoral;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.Martins_quotes{
+    background-color: lightcoral;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    text-align: left;
+}
+.page{
+    display: flex;
+    
+}
+.fish_container{
+    width: 60%;
+    background-color: antiquewhite;
+    margin: 10px;
+   text-align: center;
+
+}
+.fish__tips{
+    margin: 10px;
+    text-align: left;
+}
+.fish__name{
+    font-weight: bolder;
+}
+.tank_header{
+    align-content: center;
+}
+.location_header{
+    text-align: center;
+}
+.tips_header{
+    text-align: center;
+}
+.quotes_header{
+    text-align: center;
+}
+.fish__advice{
+    margin: 10px;
+    text-align: left;
+}
+

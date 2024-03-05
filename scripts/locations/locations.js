@@ -1,5 +1,5 @@
 // Import the function that returns a copy of the fish array
-import {getHarvest} from './database.js'
+import {getHarvest} from '../database.js'
 
 export const Harvest = () => {
     // Invoke the function that you imported from the database module
@@ -12,7 +12,7 @@ export const Harvest = () => {
     for (const harvest of harvests) {
 
         // Why is there a backtick used for this string?
-        htmlString += `<section class="location_card">
+        htmlString += `<section class="location__card">
             <div class="fish__location">${harvest.location}</div>
         </section>
 `
